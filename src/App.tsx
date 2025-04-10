@@ -21,8 +21,25 @@ function App() {
       <div className='image-overlay'>
         <img src={Image6} className='background-img' />
         <a
+  href='https://wa.me/96178819017?text=Hello%20Cygne!'
+  className='overlay-text-whatsapp'
+  target='_blank'
+  rel='noopener noreferrer'
+>
+  Whatsapp
+</a>
+<a
+  href='https://outlook.live.com/owa/?path=/mail/action/compose&to=ali.najdi225@outlook.com'
+  className='overlay-text-email'
+  target='_blank'
+  rel='noopener noreferrer'
+>
+  Email
+</a>
+
+        <a
           href='https://www.instagram.com/cygne.co.sarl/'
-          className='overlay-text'
+          className='overlay-text-instagram'
           target='_blank'
           rel='noopener noreferrer'
         >

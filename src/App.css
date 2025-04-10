@@ -60,14 +60,39 @@
   height: auto;
 }
 
-.overlay-text {
+.overlay-text-instagram {
   position: absolute;
-  top: 82%;
-  left: 37%;
+  top: 81%;
+  left: 49%;
 margin: 5px;
   transform: translate(-50%, -50%);
   color: black; /* or any color that contrasts your image */
-  font-size: 10px;
+  font-size: 15px;
   font-weight: bold;
   pointer-events: auto;
 }
+
+.overlay-text-whatsapp {
+  position: absolute;
+  top: 72%;
+  left: 49%;
+margin: 5px;
+  transform: translate(-50%, -50%);
+  color: black; /* or any color that contrasts your image */
+  font-size: 15px;
+  font-weight: bold;
+  pointer-events: auto;
+}
+
+.overlay-text-email {
+  position: absolute;
+  top: 77%;
+  left: 49%;
+margin: 5px;
+  transform: translate(-50%, -50%);
+  color: black; /* or any color that contrasts your image */
+  font-size: 15px;
+  font-weight: bold;
+  pointer-events: auto;
+}
+

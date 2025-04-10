@@ -48,3 +48,26 @@
   padding: 0; /* Remove any padding from the container */
   margin: 0; /* Remove any margin from the container */
 }
+
+.image-overlay {
+  position: relative;
+  display: inline-block;
+}
+
+.background-img {
+  display: block;
+  width: 100%; /* optional, adjust to your needs */
+  height: auto;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 82%;
+  left: 37%;
+margin: 5px;
+  transform: translate(-50%, -50%);
+  color: black; /* or any color that contrasts your image */
+  font-size: 10px;
+  font-weight: bold;
+  pointer-events: auto;
+}

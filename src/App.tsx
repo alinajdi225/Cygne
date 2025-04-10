@@ -11,17 +11,26 @@ function App() {
 
 
   return (
-
-     <div className='container'>
-    <img src={Image1}/>
-    <img src={Image2}/>
-    <img src={Image3}/>
-    <img src={Image4}/>
-    <img src={Image5}/>
-    <img src={Image6}/>
-     </div>
-
-  )
+    <div className='container'>
+      <img src={Image1} />
+      <img src={Image2} />
+      <img src={Image3} />
+      <img src={Image4} />
+      <img src={Image5} />
+  
+      <div className='image-overlay'>
+        <img src={Image6} className='background-img' />
+        <a
+          href='https://www.instagram.com/cygne.co.sarl/'
+          className='overlay-text'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          Instagram
+        </a>
+      </div>
+    </div>
+  );
 }
 
 export default App
